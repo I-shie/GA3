@@ -13,5 +13,5 @@ jobs:
            ref: main
            path: ./tools-web
       - name: Show workspace after fetching
-        run: ls
+        run: ls tools-web
            
