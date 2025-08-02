@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -  name: Show the current workspace
-      -  run: ls -l
+         run: ls -l
