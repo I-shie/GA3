@@ -6,3 +6,10 @@ jobs:
     steps:
       -  name: Show the current workspace
          run: ls -l
+      -  name: Copy Apache Repo
+         uses: actions/checkout@v2
+         with:
+           repository: apache/tomcat
+           ref: master
+           path: ./tomcat
+           
