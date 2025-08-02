@@ -9,7 +9,7 @@ jobs:
       -  name: Copy Apache Repo
          uses: actions/checkout@v2
          with:
-           repository: apache/tomcat
-           ref: master
+           repository: I-shie/Tools-Website
+           ref: main
            path: ./tomcat
            
