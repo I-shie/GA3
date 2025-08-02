@@ -11,7 +11,7 @@ jobs:
          with:
            repository: I-shie/Tools-Website
            ref: main
-           path: ./tomcat
+           path: ./tools-web
       - name: Show workspace after fetching
         run: ls -l
            
