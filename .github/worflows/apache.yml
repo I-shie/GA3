@@ -1,0 +1,8 @@
+name: Copy apache repo
+on: [push]
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      -  name: Show the current workspace
+      -  run: ls -l
